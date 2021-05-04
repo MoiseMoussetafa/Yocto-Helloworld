@@ -41,7 +41,7 @@ sudo apt install python3-pip
 Pour vérifier le bon ajout des layers :
 > ~/build-ynov-rpi/conf/bblayers.conf
 
-Ce fichier devrait ressembler à celui-ci :
+Ce fichier devrait ressembler à ceci :
 ```
 # POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
 # changes incompatibly
