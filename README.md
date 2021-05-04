@@ -1,10 +1,12 @@
 # Hello World avec Yocto
-Il s'agit de construire une image en utilisant Yocto, de l'upload sur RPi3 et d'y ajouter un programme Hello World.
+Il s'agit de construire une image en utilisant Yocto, de l'upload sur RPi3 et d'y ajouter un programme simple Hello World.
+
+![image](https://user-images.githubusercontent.com/72506988/117007193-a45f5280-ace9-11eb-8cdb-7e39112cf5e6.png)
 
 ---
 
 ## Récupération
-Récupérer les dossiers **meta-ynov-rpi4** et **configs**
+Récupérer le dossier **meta-ynov-rpi4** ainsi que le fichier **local.conf**.
 
 ## Installation des paquets nécessaires pour Yocto
 ```
