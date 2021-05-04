@@ -28,6 +28,7 @@ sudo apt install python3-pip
 ## Environnement Yocto 
 > source ~/yocto/poky/oe-init-build-env ~/build-ynov-rpi  
 
+### Ajouts des layers
 > cd ~/build-ynov-rpi
 > bitbake-layers add-layer ~/yocto/raspberrypi  
 > bitbake-layers add-layer ~/yocto/meta-openembedded/meta-oe   
@@ -63,8 +64,7 @@ BBLAYERS ?= " \
 ```
 */home/moise/* peut varier.
 
-
-## Installation layer pour utiliser Docker
+### Ajout layer pour utiliser Docker
 
 > git clone -b gatesgarth git://git.yoctoproject.org/meta-virtualization ~/yocto/meta-virtualization
 
@@ -92,6 +92,15 @@ En remplaçant :
 - **MonImage** par le nom de l'image du fichier repéré plus tôt dans **~/build-ynov-rpi/tmp/deploy/images/raspberrypi3**  
 - **sdX** par le nom repéré de la carte microSD avec la commande `df -h`
 
+
+## Essai de l'image   
+- Placer la carte microSD dans la RPi   
+- Brancher un écran et un clavier à la RPi   
+- Alimenter la RPi   
+- Patienter pendant le démarrage jusqu'à la demande de login et entrer : root   
+- Tester le programme Hello World en tapant : hello   
+
+---
 
 # Source
 https://github.com/yassine-elmernissi/bachelor-embedded-linux/tree/main/labs/lab2
