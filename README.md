@@ -6,7 +6,7 @@ Il s'agit de construire une image en utilisant Yocto, de l'upload sur RPi3 et d'
 ---
 
 ## Récupération
-Récupérer le dossier **meta-ynov-rpi4** ainsi que le fichier **local.conf**.
+Récupérer le dossier **meta-ynov-rpi4** ainsi que le fichier **local.conf** présents dans ce repo.
 
 ## Installation des paquets nécessaires pour Yocto
 ```
