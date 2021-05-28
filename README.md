@@ -29,7 +29,7 @@ sudo apt install python3-pip
 > source ~/yocto/poky/oe-init-build-env ~/build-ynov-rpi  
 
 ### Ajouts des layers
-> cd ~/build-ynov-rpi
+> cd ~/build-ynov-rpi  
 > bitbake-layers add-layer ~/yocto/raspberrypi  
 > bitbake-layers add-layer ~/yocto/meta-openembedded/meta-oe   
 > bitbake-layers add-layer ~/yocto/meta-openembedded/meta-networking   
